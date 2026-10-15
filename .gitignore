@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+
+# Testing / tooling
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Traces & artifacts
+traces/
+*.trace.jsonl
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
